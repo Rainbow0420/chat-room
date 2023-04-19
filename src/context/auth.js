@@ -8,7 +8,6 @@ const AuthProvider = (props) => {
 
     const login = async () => {
         const user = await loginWithGoogle();
-
         if (!user) {
             // TODO: Handle failed login
         }
